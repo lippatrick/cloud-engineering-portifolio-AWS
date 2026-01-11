@@ -13,11 +13,11 @@ Cloud computing is the on-demand delivery of IT resources—compute, storage, da
 Instead of provisioning physical servers and data centers, organizations consume cloud services from providers that operate large-scale global infrastructure. This is possible through the technology of Virtualization.
 
 Key characteristics:
-  ``On-demand self-service
-  Broad network access
-  Resource pooling
-  Rapid elasticity and scalability
-  Measured (usage-based) service
+On-demand self-service
+Broad network access
+Resource pooling
+Rapid elasticity and scalability
+Measured (usage-based) service
 
 ### Why Cloud Computing Exists
 
@@ -85,17 +85,17 @@ Cloud may not be ideal when Workloads are stable and predictable over long perio
 
 ## Cloud Trade-offs (Pros and Cons)
 Advantages
-    No hardware procurement
-    Elastic scaling
-    Pay-per-use pricing
-    Built-in redundancy
-    Rapid experimentation
+No hardware procurement
+Elastic scaling
+Pay-per-use pricing
+Built-in redundancy
+Rapid experimentation
 
 Challenges
-    Cost overruns if poorly managed
-    Vendor lock-in risks
-    Shared responsibility misunderstandings
-    Increased architectural complexity
+Cost overruns if poorly managed
+Vendor lock-in risks
+Shared responsibility misunderstandings
+Increased architectural complexity
 
 ## Who Should Adopt Cloud Computing?
 
