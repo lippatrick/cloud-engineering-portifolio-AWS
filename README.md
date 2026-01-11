@@ -145,3 +145,6 @@ Automation and Infrastructure as Code are foundational practices in modern AWS e
 AWS architectures are designed with reliability and scalability in mind. Systems are built to expect failures and recover automatically through redundancy, scaling, and fault isolation. Applying these design principles ensures applications can handle growth, traffic spikes, and infrastructure failures without service disruption.
 
 This portfolio focuses on understanding AWS from an architectural and operational perspective, emphasizing secure design, scalability, cost awareness, and best practices. The goal is to demonstrate strong cloud fundamentals that form the foundation for real-world AWS solutions, automation, and production-grade systems.
+
+https://docs.aws.amazon.com/whitepapers/latest/aws-overview/what-is-cloud-computing.html?utm_source=chatgpt.com
+https://aws.amazon.com/documentation-overview/?utm_source=chatgpt.com
