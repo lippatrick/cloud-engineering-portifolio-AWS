@@ -13,7 +13,7 @@ Cloud computing is the on-demand delivery of IT resources—compute, storage, da
 Instead of provisioning physical servers and data centers, organizations consume cloud services from providers that operate large-scale global infrastructure. This is possible through the technology of Virtualization.
 
 Key characteristics:
-  On-demand self-service
+  ``On-demand self-service
   Broad network access
   Resource pooling
   Rapid elasticity and scalability
