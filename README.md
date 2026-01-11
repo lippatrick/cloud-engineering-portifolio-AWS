@@ -33,10 +33,48 @@ High upfront capital costs, Slow provisioning cycles, Poor scalability, Complex 
 The cloud shifts IT from a capital expense (CapEx) model to an operational expense (OpEx) model, allowing organizations to focus on delivering value rather than managing hardware.
 
 
+## Types of Cloud Computing (Simple Explanation)
 
+Cloud computing comes in two main ways and  thatt is how the it's owned and shared (Deployment Models) & how much work the provider does for you (Service Models)
 
+### 1. Deployment Models (Who owns the infrastructure and who shares it)
 
+### Public Cloud
 
+A public cloud is like renting an apartment in a large building. The building is owned by a company (the cloud provider). Many tenants (customers) share the same building. Everyone is isolated and secure, but the infrastructure is shared. Small business / startups use this.
+
+Examples: Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform and others
+
+### Private Cloud
+
+A private cloud is like owning your own house, only one organization uses the infrastructure. It can be inside the company’s premises or hosted by a third party offering more control costs more to run. Big enterprises like Banks and financial institutions, Governments, Organizations with sensitive or regulated data who what full control, custom security or compliance with strict regulations.
+
+### Hybrid Cloud
+
+A hybrid cloud is like having both a house and a rented apartment. Some systems stay on-premises (private cloud) and others run in the public cloud. Both environments work together. They are best used by organizations moving slowly to the cloud, companies with legal or data location requirements etcs.
+
+### Multi-Cloud
+
+A multi-cloud approach is like renting apartments in different cities. A company uses more than one cloud provider at the same time where each provider is chosen for what it does best.
+
+### 2. Service Models
+
+(How much responsibility the cloud provider takes vs you). Think of this as how much work you want to do yourself.
+
+Infrastructure as a Service (IaaS), IaaS is like renting an empty house where the provider gives you the building, electricity, and water. You decide how to furnish and live in it.
+What you get: Virtual servers || Storage || Networks || Security inside the system
+Who it’s for: System administrators || Cloud engineers || Organizations needing full control 
+
+Platform as a Service (PaaS). PaaS is like renting a fully furnished apartment and the provider handles the building and furniture. You just bring your personal items and live.
+What you get: Ready-to-use platforms || Managed databases || Application runtimes
+What you manage: Your application code || Your data
+Who it’s for: Developers || Teams that want to focus on building software, not infrastructure
+
+Software as a Service (SaaS). SaaS is like staying in a hotel where everything is already set up. You just use the service.
+What you get: Fully managed applications || Access through a browser or app
+
+Eg. Email services, Customer relationship tools (CRM), Online collaboration tools
+Who it’s for: For everyone
 
 ## Why Use Cloud Computing?
 
