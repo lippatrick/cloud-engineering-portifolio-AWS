@@ -49,19 +49,16 @@ Example Groups (Real-World) Administrators || Developers || DevOps || ReadOnly-A
 
 ### 4. IAM Policies (Permission Definition)
 What is an IAM Policy?
-A policy defines what actions are allowed or denied on specific AWS resources. Policies do not grant access on their own — they must be attached to:
- Groups, Users, Roles, Policy Privilege Control, Fine-grained and many more.
+A policy defines what actions are allowed or denied on specific AWS resources. Policies do not grant access on their own — they must be attached to: Groups, Users, Roles, Policy Privilege Control, Fine-grained and many more.
 
 Policies are JSON format files.
-Example: Least-Privilege Policy
-{
-  "Effect": "Allow",
-  "Action": "ec2:DescribeInstances",
-  "Resource": "*"
-}
+
+![image alt](https://github.com/lippatrick/cloud-engineering-portifolio-AWS/blob/main/Policy.png?raw=true)
+default AmazonFullAccess Policy S3 bucket demo (JSON code)
 
 ## Conclusion
 A secure AWS environment starts with locking down the root user, creating IAM users for humans, managing access through groups and policies, and using roles for services and automation.
 This design reflects real-world AWS security architecture used in enterprise and production environments.
+
 
 
