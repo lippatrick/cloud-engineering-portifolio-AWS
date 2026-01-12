@@ -33,16 +33,12 @@ Access method: Access Key + Secret Key. Modern AWS best practice prefers IAM Rol
 IAM Users Created when onboarding a new team member, separating responsibilities (Dev, Ops, Audit), enforcing accountability
 
 How IAM Users Are Created (Steps)
-Log in as root or admin IAM user
-Open IAM
-Select Users
-Click Create user
-Choose: Console access, Programmatic access
-Assign permissions (via groups)
-Enable MFA
-Create user
+Log in as root or admin IAM user, Open IAM, Select Users, Click Create user, Choose (Console access, Programmatic access) ass required, Assign permissions (via groups), Enable MFA, Create user
 ### NOTE: remember to enable the user to autogenerate password, this provides the csv file containing the credentials to be used with ID, username and password when login.
 The csv file is shared by the root user 
+![image alt](https://github.com/lippatrick/cloud-engineering-portifolio-AWS/blob/main/IAM_user%20_denied.png?raw=true)
+
+Created IAM user zac01 in my root account with denied access when logged in and password changed.
 
 ### 3. IAM Groups (Permission Management Layer)
 ![image alt](https://github.com/lippatrick/cloud-engineering-portifolio-AWS/blob/main/group_add.png?raw=true)
@@ -67,4 +63,5 @@ Example: Least-Privilege Policy
 ## Conclusion
 A secure AWS environment starts with locking down the root user, creating IAM users for humans, managing access through groups and policies, and using roles for services and automation.
 This design reflects real-world AWS security architecture used in enterprise and production environments.
+
 
