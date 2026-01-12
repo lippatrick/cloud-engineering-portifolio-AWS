@@ -45,6 +45,8 @@ Create user
 The csv file is shared by the root user 
 
 ### 3. IAM Groups (Permission Management Layer)
+![image alt](https://github.com/lippatrick/cloud-engineering-portifolio-AWS/blob/main/group_add.png?raw=true)
+
 An IAM group is a way to assign permissions to multiple IAM users at once. Groups do not contain permissions directly — policies do.
 Groups are centered on policies which centralize permission control, easy onboarding/offboarding, consistent access levels
 Example Groups (Real-World) Administrators || Developers || DevOps || ReadOnly-Auditors
@@ -65,3 +67,4 @@ Example: Least-Privilege Policy
 ## Conclusion
 A secure AWS environment starts with locking down the root user, creating IAM users for humans, managing access through groups and policies, and using roles for services and automation.
 This design reflects real-world AWS security architecture used in enterprise and production environments.
+
