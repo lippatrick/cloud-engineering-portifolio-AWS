@@ -1,0 +1,29 @@
+After creating the IAM user with permission / policies for aceess privilege settings through a common group the user is placed, these are the steps to deploy the jenkins
+service on the EC2 instance (ubuntu server).
+ssh into the server using port 22 and generated keys. (never shared)
+- sudo apt update
+- chmod 600 two_instance_login.pem
+- ssh -i two_instance_login.pem ubuntu@/your public ip address for instance/
+This will be a successful login
+
+Install jenkins/requires java 
+https://www.jenkins.io/doc/book/installing/linux/   : This link guide (select the OS your using).
+- sudo apt update
+- sudo apt install fontconfig openjdk-21-jre
+- java -version
+install jenkins application (the weekly release)
+- sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc \
+    https://pkg.jenkins.io/debian/jenkins.io-2026.key
+  echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc]" \
+    https://pkg.jenkins.io/debian binary/ | sudo tee \
+    /etc/apt/sources.list.d/jenkins.list > /dev/null
+- sudo apt update
+- sudo apt install jenkins
+- jenkins --version
+check status
+- sudo systemctl status jenkins.service
+- sudo systemctl start jenkins.service (if inactive)
+Access on your borwser.
+ - http/[Instance ip-add]:8080 
+ - cat /var/lib/jenkins/secrets/initialAdminPassword
+use the password to login
