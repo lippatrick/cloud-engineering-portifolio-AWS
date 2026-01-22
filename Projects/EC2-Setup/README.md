@@ -108,3 +108,4 @@ This project demonstrates my understanding of cloud infrastructure, IAM, Linux s
 - Configured cloud networking, including VPC concepts and Security Groups for secure access control
 - Applied DevOps fundamentals such as automation, continuous integration, and deployment best practices
 
+https://www.jenkins.io/doc/book/installing/linux/
