@@ -67,7 +67,7 @@ Configure key pair for SSH access
 
 ![image alt](https://github.com/lippatrick/cloud-engineering-portifolio-AWS/blob/main/Projects/shoots/ec2/Screenshot%20from%202026-01-22%2011-07-44.png?raw=true)
 
-![image alt]()
+![image alt](https://github.com/lippatrick/cloud-engineering-portifolio-AWS/blob/main/Projects/shoots/ec2/Screenshot%20from%202026-01-22%2011-29-54.png?raw=true)
 
 ![image alt]()
 
@@ -125,6 +125,7 @@ This project demonstrates my understanding of cloud infrastructure, IAM, Linux s
 - Applied DevOps fundamentals such as automation, continuous integration, and deployment best practices
 
 https://www.jenkins.io/doc/book/installing/linux/
+
 
 
 
