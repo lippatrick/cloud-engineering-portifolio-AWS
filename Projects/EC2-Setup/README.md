@@ -108,7 +108,8 @@ https://www.jenkins.io/doc/book/installing/linux/
 
 
 ### Future project 
-PHP user login page, full CI/CD pipeline dealing with servers and database (Mysql)
+PHP user login page, full CI/CD pipeline dealing with servers and database (Mysql) with route 53 for DNS 
+
 
 
 
