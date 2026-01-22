@@ -3,7 +3,7 @@ service on the EC2 instance (ubuntu server).
 ssh into the server using port 22 and generated keys. (never shared)
 - sudo apt update
 - chmod 600 two_instance_login.pem
-- ssh -i two_instance_login.pem ubuntu@/your public ip address for instance/
+- ssh -i two_instance_login.pem ubuntu@your-public_ec2-ip 
 This will be a successful login
 
 Install jenkins/requires java 
@@ -24,6 +24,7 @@ check status
 - sudo systemctl status jenkins.service
 - sudo systemctl start jenkins.service (if inactive)
 Access on your borwser.
- - http/[Instance ip-add]:8080 
+ - http:/[Instance ip-add]:8080 
  - cat /var/lib/jenkins/secrets/initialAdminPassword
 use the password to login
+
