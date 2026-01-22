@@ -40,20 +40,13 @@ In production environments, least privilege policies should always be applied in
 
 ### Project Architecture
 
-IAM User with required permission
-
-EC2 Instance (Amazon Linux)
-
-Security Group allowing:
-
-SSH (Port 22)
-
-Jenkins (Port 8080)
-
-Jenkins installed and running on EC2
-
-Jenkins accessed via PubliProject Architecture
-
+- IAM User with required permission
+- EC2 Instance (Amazon Linux)
+- Security Group allowing:
+- SSH (Port 22)
+- Jenkins (Port 8080)
+- Jenkins installed and running on EC2
+- Jenkins accessed via PubliProject Architecture
 
 Implementation Steps
 1. Create an EC2 Instance
@@ -114,3 +107,4 @@ This project demonstrates my understanding of cloud infrastructure, IAM, Linux s
 - Installed, configured, and ran Jenkins for CI/CD automation
 - Configured cloud networking, including VPC concepts and Security Groups for secure access control
 - Applied DevOps fundamentals such as automation, continuous integration, and deployment best practices
+
