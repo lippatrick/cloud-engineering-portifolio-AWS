@@ -67,19 +67,6 @@ Configure key pair for SSH access
 
 ![image alt](https://github.com/lippatrick/cloud-engineering-portifolio-AWS/blob/main/Projects/shoots/ec2/Screenshot%20from%202026-01-22%2011-07-44.png?raw=true)
 
-![image alt](https://github.com/lippatrick/cloud-engineering-portifolio-AWS/blob/main/Projects/shoots/ec2/Screenshot%20from%202026-01-22%2011-29-54.png?raw=true)
-
-![image alt](https://github.com/lippatrick/cloud-engineering-portifolio-AWS/blob/main/Projects/shoots/ec2/Screenshot%20from%202026-01-22%2011-33-59.png?raw=true)
-
-
-![image alt](https://github.com/lippatrick/cloud-engineering-portifolio-AWS/blob/main/Projects/shoots/ec2/Screenshot%20from%202026-01-22%2012-10-29.png?raw=true)
-
-Configure security group:
-
-Allow SSH (22)
-
-Allow HTTP/Jenkins (8080)
-
 2. Access EC2 via Terminal
 ssh -i your-key.pem ec2-user@<PUBLIC-IP>
 3. Install Jenkins on EC2
@@ -93,22 +80,24 @@ sudo systemctl start jenkins
 sudo systemctl enable jenkins
 4. Access Jenkins via Browser
 
-Open a browser and navigate to:
 
-http://<EC2-PUBLIC-IP>:8080
-
-Retrieve the initial admin password:
-
-sudo cat /var/lib/jenkins/secrets/initialAdminPassword
-Outcome
 
 Successfully deployed an EC2 instance on AWS
+- Configure security group 22 and 8080 ports
+- Accessed the instance securely via SSH
+- Installed and configured Jenkins
 
-Accessed the instance securely via SSH
+![image alt](https://github.com/lippatrick/cloud-engineering-portifolio-AWS/blob/main/Projects/shoots/ec2/Screenshot%20from%202026-01-22%2011-29-54.png?raw=true)
 
-Installed and configured Jenkins
+![image alt](https://github.com/lippatrick/cloud-engineering-portifolio-AWS/blob/main/Projects/shoots/ec2/Screenshot%20from%202026-01-22%2011-33-59.png?raw=true)
+
+![image alt](https://github.com/lippatrick/cloud-engineering-portifolio-AWS/blob/main/Projects/shoots/ec2/Screenshot%20from%202026-01-22%2012-10-29.png?raw=true)
+
 
 Accessed Jenkins through the public IP address
+- http://<EC2-PUBLIC-IP>:8080 
+- Retrieve the initial admin password:
+- sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 ![image alt](https://github.com/lippatrick/cloud-engineering-portifolio-AWS/blob/main/Projects/shoots/ec2/Screenshot%20from%202026-01-22%2012-06-19.png?raw=true)
 
@@ -127,6 +116,7 @@ This project demonstrates my understanding of cloud infrastructure, IAM, Linux s
 - Applied DevOps fundamentals such as automation, continuous integration, and deployment best practices
 
 https://www.jenkins.io/doc/book/installing/linux/
+
 
 
 
