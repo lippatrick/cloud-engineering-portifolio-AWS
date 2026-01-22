@@ -68,19 +68,8 @@ Configure key pair for SSH access
 ![image alt](https://github.com/lippatrick/cloud-engineering-portifolio-AWS/blob/main/Projects/shoots/ec2/Screenshot%20from%202026-01-22%2011-07-44.png?raw=true)
 
 2. Access EC2 via Terminal
-ssh -i your-key.pem ec2-user@<PUBLIC-IP>
 3. Install Jenkins on EC2
-sudo yum update -y
-sudo wget -O /etc/yum.repos.d/jenkins.repo \
-https://pkg.jenkins.io/redhat-stable/jenkins.repo
-sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
-sudo yum install java-11-amazon-corretto -y
-sudo yum install jenkins -y
-sudo systemctl start jenkins
-sudo systemctl enable jenkins
 4. Access Jenkins via Browser
-
-
 
 Successfully deployed an EC2 instance on AWS
 - Configure security group 22 and 8080 ports
@@ -118,6 +107,8 @@ This project demonstrates my understanding of cloud infrastructure, IAM, Linux s
 https://www.jenkins.io/doc/book/installing/linux/
 
 
+### Future project 
+PHP user login page, full CI/CD pipeline dealing with servers and database (Mysql)
 
 
 
